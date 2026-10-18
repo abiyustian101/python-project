@@ -1,0 +1,14 @@
+cat << 'EOF' > .gitignore
+# Mengabaikan venv
+cuyface_env/
+*/cuyface_env/
+venv/
+env/
+
+# Abaikan Temporary & Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*pyd
+.vscode/
+EOF
