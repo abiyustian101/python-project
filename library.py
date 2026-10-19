@@ -14,6 +14,7 @@ def exit_message():
         print(f"{i}...")
         sleep(1)
     print("UNIVERSE PYBERT HAS BEEN SHUTDOWN! THANKS FOR PLAYING!")
+    exit()
     
 
 if __name__ == "__main__":

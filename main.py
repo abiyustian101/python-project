@@ -11,7 +11,6 @@ def menu():
         warung.start()
     elif user_option == 3:
         exit_message()
-        sys.exit()
     else:
         print("Silahkan pilih dari menu diatas atuh mas!")
 def main():
